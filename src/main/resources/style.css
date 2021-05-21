@@ -1,0 +1,59 @@
+/*
+ * Copyright (C) 2021 Eugenio Marconicchio <eugeniomarconicchio@protonmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* Remove the blue focus outline and change it with a grey one */
+.root {
+    -fx-focus-color: grey;
+    -fx-faint-focus-color: transparent;
+}
+
+.common {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.label {
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+}
+
+/* the .text selector is needed to add these parameters to the label */
+.outline.label .text {
+    -fx-fill: black;
+    -fx-stroke: white;
+    -fx-stroke-width: 0.5;
+}
+
+.textField {
+    -fx-border-radius: 8;
+    -fx-padding: 6;
+}
+
+.button {
+    -fx-border-radius: 12;
+    -fx-padding: 4;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: darkgrey;
+}
+
+.button:pressed {
+    -fx-background-color: white;
+}
