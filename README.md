@@ -4,7 +4,7 @@ background color accordingly.
 
 ## Dependencies
 
-This program needs the FreeSans font to run.
+This program is based on JavaFX and needs the FreeSans font to run.
 
 ## TODO
 - [x] Make the label readable for both light and dark colors
